@@ -1,0 +1,95 @@
+<!-- EX1.: Add an h1 tag with the name of your shop
+
+EX2.: Add a TABLE with the top 5 products of your shop
+
+EX3.: Insert for each product an image, a title, a description and a price
+
+EX4.: Add links to existing Amazon products for each item in the table
+
+EX5.: Add a footer with the address and the name of your shop
+
+EX6.: Add a message board where the user can type a message in it (no real posting/saving features required!)**/-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myshop</title>
+    <style>
+        table,td,th{
+            border:1px solid black;
+            text-align:center;
+        }
+        table{
+            width:100%
+        }
+    </style>
+</head>
+
+<body>
+    
+<h1>Karizma</h1>
+<title>Table</title>
+</head>
+<body>
+    <table>
+    <th>Products</th>
+    <th>Image</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Price</th>  
+    <th>Amazon link</th> 
+    <tr>
+        <td>Eye Liner</td>
+        <td><img src="https://img01.ztat.net/article/spp-media-p1/691e8263bd0b466fb0cd9563a44bbdc5/90652acd75ad4578b07145650c991e68.png?imwidth=1800&filter=packshot" alt="Eye Liner" width="50" height="60"></td>
+        <td>HIFI</td>
+        <td>Waterproof</td>
+        <td>20 €</td>
+        <td><a href ="https://www.amazon.de/dp/B074Y8LM6T/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=5462d4cda60a1feadb63201d5a22c127&hsa_cr_id=2974623460602&pd_rd_plhdr=t&pd_rd_r=f66ea785-0d3c-4fd0-bef9-d17eceb9c87d&pd_rd_w=AFqO3&pd_rd_wg=Bm8I5&ref_=sbx_be_s_sparkle_mcd_asin_0_" imgstyle="display:block;">order product</a></td>
+    </tr>
+    <tr>
+        <td>Lipstick</td>
+        <td><img src="https://www.narscosmetics.de/dw/image/v2/BCMQ_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw773e6329/hi-res/NARS_FA19_Lipstick_Soldier_LPS_Raw_Seduction_Satin_GLBL_B_square.jpg?sw=856&sh=750&sm=fit" alt="Lip stick" width="50" height="60"></td>
+        <td>SHINE</td>
+        <td>Long lasting</td>
+        <td>50 €</td>
+        <td><a href ="https://www.amazon.de/Factor-Colour-Elixir-Butter-Apricot/dp/B07GZD75DC/ref=sr_1_1_sspa?dchild=1&keywords=mac+lippenstift&qid=1621953688&rdc=1&s=beauty&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNVZFWVJKSFI4SFFHJmVuY3J5cHRlZElkPUEwNDE5NjkyMVVWMkNGWDdRSDc1SCZlbmNyeXB0ZWRBZElkPUEwODU0NDQ3Mk1HSlhVU0ZJRTNBTCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="imgstyle="display:block;">order product</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Rose Water</td>
+        <td><img src="https://ayurcentralonline.com/3173-large_default/rose-water.jpg" alt="Rose water" width="50" height="60"></td>
+        <td>GULAB</td>
+        <td>Made with real roses</td>
+        <td>15 €</td>
+        <td><a href="https://www.amazon.de/Pure-Rose-Water-MonteNativo-200/dp/B07LC18Z2F/ref=sr_1_1_sspa?crid=3KG2OMC1V2LPE&dchild=1&keywords=rosenwasser&qid=1621953815&s=beauty&sprefix=rose+water%2Cbeauty%2C166&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE0UDVTTzNZOVBUM0omZW5jcnlwdGVkSWQ9QTAyNTA0ODQyMENXR01TUllaMTFSJmVuY3J5cHRlZEFkSWQ9QTA5ODE4NTdXWFZDQVNYMjQ2Sksmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl" imgstyle="display:block;">order product</a>
+        </td>
+        
+    </tr> 
+    <tr>
+        <td>Foundation</td>
+        <td><img src="https://m.maccosmetics.de/media/export/cms/products/640x600/mac_sku_MXCT01_640x600_0.jpg" alt="Foundation" width="50" height="60"></td>
+        <td>MAC</td>
+        <td>Fits into skin</td>
+        <td>35 €</td>
+        <td><a href="https://www.amazon.de/LOr%C3%A9al-foundation-hyaluronic-perfect-make-up/dp/B013P9MOKG/ref=sr_1_2_sspa?dchild=1&keywords=foundation&qid=1621954047&s=beauty&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyQUpYWUUzWjlHNjlZJmVuY3J5cHRlZElkPUEwNzA2ODg0MlM3MzhaV0NBME1QViZlbmNyeXB0ZWRBZElkPUEwMjM2NTcxMUJDSU1XSVgzQVVTOCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=" imgstyle="display:block;">order product</a></td>
+    </tr>
+
+    <tr>
+        <td>Suncream</td>
+        <td><img src="https://images-na.ssl-images-amazon.com/images/I/718WY8sgf5L._SL1500_.jpg" alt="Sun cream" width="50" height="60"></td>
+        <td>Nivea</td>
+        <td>24 hours sun protection</td>
+        <td>10 €</td>
+        <td><a href="https://www.amazon.de/Protect-Moisture-Lotion-Improved-Formula/dp/B01B66RYJG/ref=sr_1_2_sspa?dchild=1&keywords=nivea+sonnencreme&qid=1621954159&rdc=1&s=beauty&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUDNZS1I3RkxYSU1XJmVuY3J5cHRlZElkPUEwMzA4OTM4MlVGV1VBNDE4VjZQTCZlbmNyeXB0ZWRBZElkPUEwMTE3NzgwMUZYNEYzN0hROFRISyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=" imgstyle="display:block;">order product</a></td>
+        
+    </tr>
+</table>
+
+
+   
+</table>
+</body>
+</html>
+
+
